@@ -14,7 +14,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Set the PATH for Powerlevel10k
 export PATH=$HOME/powerlevel10k:$PATH
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.powerlevel10k/powerlevel10k.zsh-theme
 
 # Alias for Neovim
 alias vim=nvim
