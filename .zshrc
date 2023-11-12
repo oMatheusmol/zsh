@@ -6,9 +6,6 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# Set the theme to Powerlevel10k
-ZSH_THEME="powerlevel10k/powerlevel10k"
-
 # Add custom plugins
 plugins=(git zsh-autosuggestions)
 
