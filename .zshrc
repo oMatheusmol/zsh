@@ -93,4 +93,7 @@ export PATH="$HOME/.local/bin:$PATH"
 # -------------------------
 
 eval "$(zoxide init zsh)"
+<<<<<<< HEAD
 
+=======
+>>>>>>> ea9b82ca975bf62531497cc447427dea9fe6ac80
