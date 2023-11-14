@@ -29,3 +29,14 @@ export NVM_DIR="$HOME/.nvm"
 
 # Cargo (Rust) Configuration
 export PATH="$HOME/.cargo/bin:$PATH"
+
+export FUNCNEST=200
+# Excalidraw
+alias draw="npm --prefix ~/.excalidraw start"
+alias bat="batcat"
+alias find="fzf"
+eval "$(zoxide init zsh)"
+alias cd="z"
+alias zz="cd -"
+fpath+=/home/matheus/.oh-my-zsh/custom/plugins/zsh-completions/src/
+source /home/matheus/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
