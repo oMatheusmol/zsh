@@ -15,7 +15,7 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 
 # Add custom plugins
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting history)
 
 # Load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
