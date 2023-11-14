@@ -7,7 +7,7 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 
 # Add custom plugins
-plugins=(git zsh-autosuggestions)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 # Load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
@@ -35,8 +35,10 @@ export FUNCNEST=200
 alias draw="npm --prefix ~/.excalidraw start"
 alias bat="batcat"
 alias find="fzf"
+export PATH="$HOME/.local/bin:$PATH"
 eval "$(zoxide init zsh)"
 alias cd="z"
 alias zz="cd -"
 fpath+=/home/matheus/.oh-my-zsh/custom/plugins/zsh-completions/src/
-source /home/matheus/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
