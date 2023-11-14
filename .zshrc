@@ -36,7 +36,7 @@ source ~/.powerlevel10k/powerlevel10k.zsh-theme
 # -------------------------
 
 # Alias for Neovim
-alias vim=nvimaa
+alias vim=nvim
 
 # Alias for batcat
 alias bat="batcat"
@@ -93,7 +93,3 @@ export PATH="$HOME/.local/bin:$PATH"
 # -------------------------
 
 eval "$(zoxide init zsh)"
-<<<<<<< HEAD
-
-=======
->>>>>>> ea9b82ca975bf62531497cc447427dea9fe6ac80
