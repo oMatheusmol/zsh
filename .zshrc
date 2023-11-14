@@ -1,4 +1,4 @@
-# -------------------------
+#-------------------------
 # Powerlevel10k Configuration
 # -------------------------
 
@@ -45,8 +45,7 @@ alias bat="batcat"
 alias find="fzf"
 
 # Alias for zoxide
-alias cd="z"
-alias zz="cd -"
+alias zz="z -"
 
 # Source Powerlevel10k configuration
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -66,12 +65,6 @@ export NVM_DIR="$HOME/.nvm"
 # -------------------------
 
 export PATH="$HOME/.cargo/bin:$PATH"
-
-# -------------------------
-# Miscellaneous Configurations
-# -------------------------
-
-export FUNCNEST=200  # Set function nesting limit
 
 # -------------------------
 # Excalidraw
